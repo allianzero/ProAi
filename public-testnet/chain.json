@@ -1,0 +1,12 @@
+{
+  "name": "ProAi Testnet",
+  "chainId": 505,
+  "shortName": "proai",
+  "chain": "ProAi",
+  "networkId": 505,
+  "nativeCurrency": { "name": "ProAi", "symbol": "PAI", "decimals": 18 },
+  "rpc": ["https://rpc-testnet.proai.example"],
+  "faucets": ["https://faucet-testnet.proai.example"],
+  "infoURL": "https://proai.example",
+  "explorers": [{ "name": "ProAi Explorer", "url": "https://explorer-testnet.proai.example", "standard": "EIP3091" }]
+}
