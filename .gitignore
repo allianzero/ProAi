@@ -1,0 +1,10 @@
+# Never commit these: validator keys, passwords, chain data, logs, binaries.
+data/
+data2/
+**/keystore/
+password.txt
+*.log
+*.tar.gz
+bin/
+geth-*/
+ngrok.yml
