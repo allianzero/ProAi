@@ -43,6 +43,12 @@ curl -X POST -H 'Content-Type: application/json' --data '{"jsonrpc":"2.0","metho
 
 See `public-testnet/` for the plan to turn ProAi into a public testnet: a VPS with a public IP, a domain with HTTPS behind Nginx, an explorer, a faucet, and Chainlist submission (`public-testnet/chain.json`, with the domain placeholder replaced by a real domain).
 
+## Roadmap and Project
+
+See `roadmap.md` for the full ProAi roadmap: trial, stabilise the trial without a VPS, public testnet only if ProAi becomes a real project, hardening, then mainnet readiness only after a proven testnet and a completed audit. No token price, token sale, funding amount, or mainnet date is promised.
+
+Track progress in the ProAi GitHub Project: https://github.com/users/allianzero/projects/2
+
 ## Warnings
 
 - This is a local test chain. It is not public mainnet, and testnet PAI has no value.
