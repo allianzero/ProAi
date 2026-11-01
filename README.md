@@ -19,6 +19,7 @@ ProAi is an own EVM chain built from scratch.
 - 2026-10-30, 1 validator: chain ID 505, blocks sealing about every 3 seconds.
 - 2026-10-30, 2 validators: both nodes synced, sealing alternates — validator 2 seals even blocks, validator 1 seals odd blocks. Note: after adding the second validator, validator 1 alone could not seal ("signed recently, must wait for others") until validator 2 sealed a block. That is expected Clique rotation.
 - 2026-10-30, later check: both validators synced at block 439, chain ID 505.
+- 2026-11-01: both validators synced at block 18,433, peerCount 1, filtered proxy answering chain ID 505, faucet live. The chain is still a trial on a restart-prone VM; a VPS is not used in the trial phase and is only considered if ProAi becomes a real project.
 
 ## Run a local node
 
